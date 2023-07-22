@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Sathish Website</title>
+</head>
+<style>
+  
+    *{
+      margin: 0;
+        font-family: 'Poppins', sans-serif;
+       background-image: -moz-element();
+    }
+    .center{
+        font-size: 0.75rem;
+        display: inline-flex;
+align-items: flex-start;
+gap: 48px;
+    color: #556987;
+    line-height: 24px;
+    margin: 17px;
+        
+    }
+    .left{
+        font-size: 2rem;
+        margin-left: 5%;
+        margin-top: 0.5%;
+    }
+    nav{
+      
+height: 80px;
+flex-shrink: 0;
+      margin: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color:#F7F8F9 ;
+    }
+    .right{
+        
+        margin-top: 17px;
+        margin-right:5%;
+    }
+    .signup{
+      margin-left: 50px;
+    }
+    .login-card {
+      
+      
+      width: 300px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-card h2 {
+
+      text-align: center;
+    }
+
+    .login-card input[type="text"],
+    .login-card input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .login-card button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor:pointer;
+    }
+
+    .login-card button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    label{
+        font-size: 0.75rem;
+    }
+    .login-card{
+       margin-top: 100px;
+      
+    }
+   section.rights{
+    font-size: 1rem;
+   }
+   .lefts{
+    font-size: 3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+   }
+   .main{
+    display: flex;
+    background-color: #F7F8F9;
+    fill: var(--gray-050, #F7F8F9);
+    height: 592px;
+   }
+   .points{
+    font-size: 0.75rem;
+   }
+   .content{
+    /* margin-top: 20%; */
+   }
+   .rights{
+    width: 50%;
+   }
+  .lower{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .sub{
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .bottom{
+    
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    
+  }
+  .bottomlow{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .low{
+    margin-top: 5%;
+    background:radial-gradient(50% 50.00% at 50% 50.00%, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+ ;}
+  .signup{
+    display: inline-flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+border-radius: 6px;
+background: var(--primary-500, #22C55E);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+color: #F0FDF4;
+  }
+  .image{
+    display: flex;
+width: 32px;
+height: 32px;
+padding: 12px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--primary-500, #22C55E);
+position: absolute;
+margin-left: 17%;
+margin-top: 3.5%;
+
+  }
+  .h2{
+    display: flex;
+width: 358px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--gray-500, #556987);
+margin-left: 20%;
+
+
+  }
+  .lines{
+    display: flex;
+  }
+  .line1{
+    margin-top: 20px;
+    width: 40%;
+height: 1px;
+background-color:black;
+margin-left: 10px;
+  }
+  .or{
+    display: flex;
+width: 20px;
+flex-direction: column;
+flex-shrink: 0;
+margin-top: 7px;
+padding-left: 5px;
+  }
+  .line2{
+    margin-top: 20px;
+    width: 40%;
+height: 1px;
+background-color:black;
+margin-left: 10px; 
+  }
+  .google{
+    display: flex;
+width: px;
+height: 20px;
+padding: 12px 18px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid var(--gray-200, #D5DAE1);
+background: var(--white-900, #FFF);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+  }
+  .google>a{
+      text-decoration: none;
+  }
+ .google:hover{
+  background-color:#D5DAE1;
+ }
+ .facebook{
+  margin-top: 15px;
+  display: flex;
+width: px;
+height: 20px;
+padding: 12px 18px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid var(--gray-200, #D5DAE1);
+background: var(--white-900, #FFF);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+ }
+ .facebook>a{
+  text-decoration: none;
+ }
+ .facebook:hover{
+  background-color:#D5DAE1 ;
+ }
+ .apple{
+  margin-top: 15px;
+  display: flex;
+width: px;
+height: 20px;
+padding: 12px 18px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid var(--gray-200, #D5DAE1);
+background: var(--white-900, #FFF);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+ }
+ .apple:hover{
+  background-color: #D5DAE1;
+ }
+ .apple>a{
+  text-decoration: none;
+ }
+ span{
+  color: #22C55E;
+ }
+ .bot{
+  margin-left:5%;
+  margin-top: 5%;
+
+ }
+ .header{
+  display: inline-flex;
+height: 22px;
+padding: 2px 8px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+flex-shrink: 0;
+border-radius: 36px;
+background: var(--primary-500, #22C55E);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+color: var(--primary-100, #DCFCE7);
+
+/* text-xs/Medium */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+
+ }
+ #number{
+  display: inline-flex;
+height: 22px;
+padding: 2px 8px;
+justify-content: center;
+align-items: center;
+border-radius: 36px;
+background: var(--primary-100, #DCFCE7);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+color: rgb(47, 202, 47);
+
+text-align: center;
+
+/* text-xs/Medium */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+
+ }
+ .numberbadge{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+ }
+ .featuressection{
+  background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(247, 248, 249, 0.00) 0%, #F7F8F9 100%);
+  height: 1281px;
+}
+.features{
+  display: inline-flex;
+height: 22px;
+padding: 2px 8px;
+justify-content: center;
+align-items: center;
+border-radius: 36px;
+background: var(--primary-100, #DCFCE7);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+color: var(--primary-500, #22C55E);
+
+/* text-xs/Medium */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+margin-top: 50px;
+}
+.featuresbadge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.gain{
+  color: var(--gray-900, #2A3342);
+text-align: center;
+
+/* display-md/Bold */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: -0.72px;
+display: flex;
+width: 846px;
+flex-direction: column;
+flex-shrink: 0;
+
+}
+.gainbadge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 100px;
+}
+.withour{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #556987;
+}
+.rectangleimage{
+  width: 750px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 24px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  justify-content: center;
+
+}
+.rectangle{
+  justify-content: center;
+align-items: center;
+display: flex;
+margin: 100px;
+}
+.frame{
+  width: 148.89px;
+height: 90.91px;
+flex-shrink: 0;
+margin-top: 477px;
+    position: absolute;
+    margin-left: 676px;
+}
+.vector{
+  width: 150.437px;
+height: 133.033px;
+flex-shrink: 0;
+position: absolute;
+margin-bottom: 440px;
+margin-right: 675px;
+}
+.frame17{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+width: 359px;
+height: 262px;
+flex-shrink: 0;
+
+}
+.rectangle19{
+  width: 64px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #22C55E;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-bottom: 15px;
+}
+.message{
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+
+}
+.bold{
+  /* display: flex;
+width: 339px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--gray-900, #2A3342);
+text-align: center;
+
+/* display-xs/Bold */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+}
+.p1{
+  color: var(--gray-500, #556987);
+text-align: center;
+
+/* text-md/Medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.frame18{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+width: 359px;
+height: 262px;
+flex-shrink: 0;
+}
+.frame19{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+width: 359px;
+height: 262px;
+flex-shrink: 0;
+}
+.outerframe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.rectangleflexbox{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.badge1{
+  display: inline-flex;
+height: 22px;
+padding: 2px 8px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+flex-shrink: 0;
+border-radius: 36px;
+background: var(--primary-100, #DCFCE7);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+margin-left: 150px;
+}
+.text1{
+  color: var(--primary-500, #22C55E);
+
+/* text-xs/Medium */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+}
+.badge{
+  display: inline-flex;
+height: 22px;
+padding: 2px 8px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+flex-shrink: 0;
+border-radius: 36px;
+background: var(--primary-100, #DCFCE7);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+margin-top: -8px;
+
+}
+.text{
+  color: var(--primary-500, #22C55E);
+
+/* text-xs/Medium */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+}
+.radial{
+  margin-top: 100px;
+
+height: 901px;
+
+}
+.flexible{
+  margin-left: 150px;
+  display: flex;
+width: 878px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--gray-900, #2A3342);
+
+/* display-lg/Bold */
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -0.96px;
+margin-top: 30px;
+}
+.pricing{
+  display: flex;
+width: 919px;
+flex-direction: column;
+flex-shrink: 0;color: var(--gray-500, #556987);
+
+/* text-xl/Medium */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin-left: 150px;
+margin-top: 30px;
+}
+.rectangle1{
+  width: 359px;
+  height: 455px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background: var(--gray-050, #F7F8F9);
+
+/* tailwind/drop-shadow-sm */
+box-shadow: 0px 1px 2px 0px rgba(85, 105, 135, 0.10);
+}
+.plan{
+  display: flex;
+width: 295px;
+flex-direction: column;
+flex-shrink: 0;color: var(--primary-500, #22C55E);
+text-align: center;
+
+/* text-xl/Medium */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin-top: 20px;
+}
+.dollar{
+  display: flex;
+width: 919px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--gray-500, #556987);
+text-align: center;
+
+/* text-xl/Medium */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin-top: 20px;
+}
+.bill{
+  display: flex;
+width: 295px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--gray-400, #8896AB);
+text-align: center;
+
+/* text-xl/Medium */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin-top: 20px;
+}
+.outercheckbox{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+  
+}
+.checkbox{
+  width: 20px;
+height: 20px;
+flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tick{
+position: absolute;
+}
+.checkcontent{
+  display: flex;
+width: 263px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--gray-500, #556987);
+
+/* text-md/Medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+margin-left: 10px;
+}
+.checkflex{
+  display: flex;
+  margin-top: 5px;
+}
+.buttontext{
+  color: var(--primary-050, #F0FDF4);
+
+/* text-md/Medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.button{
+  margin-top: 35px;
+  display: flex;
+width: 295px;
+height: 46px;
+
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 6px;
+background: var(--primary-500, #22C55E);
+
+/* Shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(42, 51, 66, 0.03), 0px 1px 3px 0px rgba(42, 51, 66, 0.06);
+}
+.CTA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle17{
+  width: 1140px;
+height: 289px;
+flex-shrink: 0;
+background-color: rgba(28, 35, 45, 0.90);
+color: var(--white-900, #FFF);
+display: flex;
+align-items: center;
+}
+.rectangle17text{
+  width: 456px;
+  color: var(--white-900, #FFF);
+  
+
+/* display-md/Bold */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 122.222% */
+letter-spacing: -0.72px;
+padding-left: 98px;
+padding-top: 68px;
+}
+.rec17para{
+  width: 456px;
+  color: var(--gray-400, #8896AB);
+
+/* text-xl/Medium */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+padding-top: 20px;
+padding-left: 98px;
+}
+.greenbutton{
+  display: inline-flex;
+height: 16px;
+width: 56px;
+padding: 16px 28px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 6px;
+background: var(--primary-500, #22C55E);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+margin-left: 206px;
+}
+.greenbuttext{
+  color: var(--primary-050, #F0FDF4);
+
+/* text-lg/Medium */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 155.556% */
+}
+</style>
+<body>
+    <nav>
+      <div class="left">
+          <img src="public/images/flex.png" alt="">
+      </div>
+      <div class="center">
+        <ul>product</ul>
+        <ul>features</ul>
+        <ul>pricing</ul>
+        <ul>Resources</ul>
+      </div>
+      <div class="right">
+        Log in
+        <div class="signup">
+          signup
+         </div> 
+      </div>
+       
+    </nav>
+<div class="main">
+    <section class="lefts">
+      <div class="header">
+        HEADER
+      </div>
+      
+        <div class="content">
+         
+         small bussiness is only as good as its tools.
+         </div>
+        <div class="points">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed magnam dolorem odit expedita quis? Exercitationem.
+          <li>lorem mauris pellentius congue
+        
+          </li>
+          <li>suspendises milis ticdident</li>
+          <li>prasent varuioius jdfhoiwweru dsajoe vel </li>
+        </div>
+        
+    </section>
+   
+      <section class="rights">
+        <img class="image" src="public/images/logo.png" alt="">
+        <div class="login-card">
+          
+            <h2>join our community</h2>
+            <div class="h2">
+              Start your free trail 
+            </div>
+            <form>
+                <label for="">Email</label>
+              <input type="text" placeholder="Username" required>
+              <label for="">password</label>
+              <input type="password" placeholder="Password" required>
+              <button type="submit">Get Started</button>
+              <div class="lines">
+                <div class="line1"></div>
+                <div class="or">
+                  OR
+                </div>
+                <div class="line2"> </div>
+              </div>
+                
+                <div class="google">
+                   <img src="public/images/google-24-outline.png" alt="">
+                  <a href="">Signin with google</a> 
+                </div>
+                <div class="facebook">
+                    <img src="public/images/facebook-24-outline.png" alt="">
+                    <a href="">Signin with facebook</a>
+                </div>
+                <div class="apple">
+                    <img src="public/images/apple-24-outline.png" alt="">
+                    <a href="">Signin with apple</a>
+                </div>
+                <div class="bot">
+                  Already have an account <span>Signin</span>
+                </div>
+              
+              
+            </form>
+          </div>
+         
+         
+      </section>
+    
+</div>
+<section class="low">
+  <div class="numberbadge">
+    <div id="number">
+      NUMBER
+    </div>
+  </div>
+ 
+    <div class="lower">
+      
+        We believe in the power of data
+    </div>
+    <div class="sub">
+       flex is the only bussines platform that lets you run your bussiness on one platform seamlessly across all digital channels.  
+    </div>
+
+
+    <div class="bottom">
+        <ul>235.000</ul>
+        <ul>$10m</ul>
+        <ul>+50.000</ul>
+        <ul>3.500</ul>
+    </div>
+    <div class="bottomlow">
+        <ul>projects completed</ul>
+        <ul>APR</ul>
+        <ul>Hours Saved Annually</ul>
+        <ul>unique Users</ul>
+    </div>
+ 
+  </section>
+<section class="featuressection">
+  <div class="featuresbadge">
+    <div class="features">
+      FEATURES
+    </div>
+  </div>
+  <div class="gainbadge">
+    <div class="gain">
+      Gain more insight into how people use your
+      <div class="withour">
+        With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+      </div>
+    </div>
+  </div>
+     <div class="rectangle">
+      <img  class="rectangleimage" src="public/images/rectangle-1.png" alt="">
+      <img src="public/images/frame.png" alt="" class="frame">
+      <img src="public/images/vector.png" alt="" class="vector">
+     </div>
+     <div class="outerframe">
+      <div class="frame17">
+      <div class="rectangle19">
+             <img src="public/images/messages-24-outline.png" alt="" class="message">
+      </div>
+      <div class="bold">
+        Measure your performance
+      </div>
+      <div class="p1">
+        Stay connected with your team and make quick decisions wherever you are. 
+      </div>
+    </div>
+      <div class="frame18">
+          <div class="rectangle19">
+            <img src="public/images/show-chart-24-outline.png" alt="" class="showchart">
+          </div>
+          <div class="bold">
+            Custom analytics
+          </div>
+          <div class="p1">
+            Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.
+          </div>
+      </div>
+      <div class="frame19">
+             <div class="rectangle19">
+              <img src="public/images/users-24-outline.png" alt="" class="user">
+             </div>
+             <div class="bold">
+              Team Management
+             </div>
+             <div class="p1">
+              Our calendar lets you know what is happening with customer and projects so you
+             </div>
+      </div>
+     </div>
+     
+</section>
+<section class="radial">
+  <div class="badge1">
+    <div class="text1">
+      PRICING
+    </div>
+  </div>
+  <div class="flexible">
+    Flexible pricing plan for your startup
+  </div>
+  <div class="pricing">
+    Pricing that scales with your business immediately.
+  </div>
+  <div class="rectangleflexbox">
+    <div class="rectangle1">
+        <div class="badge">
+          <div class="text">
+            PRICING
+          </div>
+        </div>
+        <div class="plan">
+          Basic Plan
+        </div>
+        <div class="dollar">
+          $ 10/mth
+        </div>
+        <div class="bill">
+          Billed annually
+        </div>
+        <div class="outercheckbox">
+          <div class="checkflex">
+            <div class="checkbox">
+              <img src="public/images/checkbox.png" alt="" class="check">
+              <img src="public/images/check-24-outline.png" alt="" class="tick">
+              
+            </div>
+            <div class="checkcontent">
+              Complete documentation
+            </div>
+              
+          </div>
+          
+
+          <div class="checkflex">
+            <div class="checkbox">
+              <img src="public/images/checkbox.png" alt="" class="check">
+              <img src="public/images/check-24-outline.png" alt="" class="tick">
+              
+            </div>
+            <div class="checkcontent">
+              Working materials in Figma
+            </div>
+              
+          </div>
+
+
+          <div class="checkflex">
+            <div class="checkbox">
+              <img src="public/images/checkbox.png" alt="" class="check">
+              <img src="public/images/check-24-outline.png" alt="" class="tick">
+              
+            </div>
+            <div class="checkcontent">
+              100GB cloud storage
+            </div>
+              
+          </div>
+
+
+          <div class="checkflex">
+            <div class="checkbox">
+              <img src="public/images/checkbox.png" alt="" class="check">
+              <img src="public/images/check-24-outline.png" alt="" class="tick">
+              
+            </div>
+            <div class="checkcontent">
+              500 team members
+            </div>
+              
+          </div>
+        </div>
+        
+             <div class="button">
+              <div class="buttontext">
+                Request a Demo
+              </div>
+             </div>
+          
+      
+    </div>
+
+
+
+
+    <div class="rectangle1">
+      <div class="badge">
+        <div class="text">
+          PRICING
+        </div>
+      </div>
+      <div class="plan">
+        Freelancer Plan
+      </div>
+      <div class="dollar">
+        $ 99/mth
+      </div>
+      <div class="bill">
+        Billed annually
+      </div>
+      <div class="outercheckbox">
+        <div class="checkflex">
+          <div class="checkbox">
+            <img src="public/images/checkbox.png" alt="" class="check">
+            <img src="public/images/check-24-outline.png" alt="" class="tick">
+            
+          </div>
+          <div class="checkcontent">
+            Complete documentation
+          </div>
+            
+        </div>
+        
+
+        <div class="checkflex">
+          <div class="checkbox">
+            <img src="public/images/checkbox.png" alt="" class="check">
+            <img src="public/images/check-24-outline.png" alt="" class="tick">
+            
+          </div>
+          <div class="checkcontent">
+            Working materials in Figma
+          </div>
+            
+        </div>
+
+
+        <div class="checkflex">
+          <div class="checkbox">
+            <img src="public/images/checkbox.png" alt="" class="check">
+            <img src="public/images/check-24-outline.png" alt="" class="tick">
+            
+          </div>
+          <div class="checkcontent">
+            100GB cloud storage
+          </div>
+            
+        </div>
+
+
+        <div class="checkflex">
+          <div class="checkbox">
+            <img src="public/images/checkbox.png" alt="" class="check">
+            <img src="public/images/check-24-outline.png" alt="" class="tick">
+            
+          </div>
+          <div class="checkcontent">
+            500 team members
+          </div>
+            
+        </div>
+      </div>
+      
+           <div class="button">
+            <div class="buttontext">
+              Request a Demo
+            </div>
+           </div>
+        
+    
+  </div>
+
+
+
+
+  <div class="rectangle1">
+    <div class="badge">
+      <div class="text">
+        PRICING
+      </div>
+    </div>
+    <div class="plan">
+      Enterprise Plan
+    </div>
+    <div class="dollar">
+      $ 799/year
+    </div>
+    <div class="bill">
+      Billed annually
+    </div>
+    <div class="outercheckbox">
+      <div class="checkflex">
+        <div class="checkbox">
+          <img src="public/images/checkbox.png" alt="" class="check">
+          <img src="public/images/check-24-outline.png" alt="" class="tick">
+          
+        </div>
+        <div class="checkcontent">
+          Complete documentation
+        </div>
+          
+      </div>
+      
+
+      <div class="checkflex">
+        <div class="checkbox">
+          <img src="public/images/checkbox.png" alt="" class="check">
+          <img src="public/images/check-24-outline.png" alt="" class="tick">
+          
+        </div>
+        <div class="checkcontent">
+          Working materials in Figma
+        </div>
+          
+      </div>
+
+
+      <div class="checkflex">
+        <div class="checkbox">
+          <img src="public/images/checkbox.png" alt="" class="check">
+          <img src="public/images/check-24-outline.png" alt="" class="tick">
+          
+        </div>
+        <div class="checkcontent">
+          100GB cloud storage
+        </div>
+          
+      </div>
+
+
+      <div class="checkflex">
+        <div class="checkbox">
+          <img src="public/images/checkbox.png" alt="" class="check">
+          <img src="public/images/check-24-outline.png" alt="" class="tick">
+          
+        </div>
+        <div class="checkcontent">
+          500 team members
+        </div>
+          
+      </div>
+    </div>
+    
+         <div class="button">
+          <div class="buttontext">
+            Request a Demo
+          </div>
+         </div>
+      
+  
+</div>
+  </div>
+</section>
+<section class="CTA">
+  <div class="rectangle17">
+    <div class="rec17textportion">
+      <div class="rectangle17text">
+        The fastest way from idea to live site. Period.
+      </div>
+      <div class="rec17para">
+        Flex is a Small SaaS Business. Flex isn’t a traditional company.
+      </div>
+    </div>
+
+      
+      <div class="greenbutton">
+           <div class="greenbuttext">
+            Get Started
+           </div>
+      </div>
+       .learn
+  </div>
+</section>
+</body>
+</html>

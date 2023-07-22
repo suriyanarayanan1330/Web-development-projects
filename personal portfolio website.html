@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suriya - developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap" rel="stylesheet">
+    <style>
+
+    
+     body{  margin: 0;
+        padding: 0;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+          
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            font-size: x-large;
+            /* background-color: rgb(27, 27, 27); */
+            
+        }
+        .left{
+            padding-left: 25px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            font-size: medium;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color: aqua;
+        }
+
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            
+        }
+        .leftsection{
+           font-size: 3rem;
+           margin: 30px;
+           height: 60%;
+           
+        }
+        .firstsection > div{
+            width: 30%;
+            height: 70%;
+        }
+        .rightsection img{
+          
+            height: 80%;
+            
+        }
+        .color{
+            color: aqua;
+        }
+        #element{
+            color: aqua;
+        }
+       .git a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px;
+        border: solid;
+        border-radius:90px ;
+       }
+       .git a:hover {
+        color: aqua;
+
+       }
+       .git{
+        padding-top: 30px;
+       }
+       body video{
+       position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        
+       }
+       div.digitalmarketing{
+        font-size: 1.3rem;
+      
+       }
+       div.digital>h6{
+        height: 5px;
+       }
+     div.digital{
+        height: 50px;
+     }
+     div.digitalmarketing a {
+        color: white;
+        
+     }
+     div.digitalmarketing a:hover{ 
+        color:aquamarine;
+        font-size: large;
+     }
+     div canvas{
+
+        padding-right: 20%;
+        padding-bottom: 20%;
+     }
+  
+    </style>
+</head>
+<body> 
+    <div>
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="dust 07.mov" type="video/mp4">
+        </video>
+        <header>
+            <nav>
+                <div class="left"><strong>kristoff's protfolio</strong></div>
+                <div class="right">
+                    <Ul>
+                        <li><a href="/">home</a</li>
+                        <li><a href="tele 9789153657">contact</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new">bussiness</a></li>
+                    </Ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="firstsection">
+    
+                <div class="leftsection">
+                    Hi, this is <span class="color">suriya</span>
+                    <div>I am a passionate</div>
+                    <span id="element"></span>
+                    <div class="git"><a href="https://github.com/suriyanarayanan1330">Github</a></div>
+                     <br>
+
+                    <div class="work">
+                        <h4>work flow chart</h4>
+                     </div>
+                    <div>
+                        <canvas id="myChart"></canvas>
+                      </div>
+                  <div class="digital">
+                    <h6>digital marketer</h6>
+                 <div class="digitalmarketing">
+                    As a freelance digital marketer i ran a youtube channel which has a niche of informative series <a href="https://www.youtube.com/channel/UCCoL8kokrigG2HLoxxKJXRw">youtube</a>
+                 </div> 
+                     <h6>bussniess analyst</h6>
+                     <div class="digitalmarketing">
+                        interest towards bussniess instingted my fasination towards business and how bussnies work
+                     </div>
+                  </div>
+          
+                </div>
+                <div class="rightsection">
+                    <img src="IMG-20221221-WA0002 (1) (1).jpg" alt="">
+                </div>
+
+              
+            </section>
+            
+        </main>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['web developer', 'bussines analyst','digital marketer'],
+              typeSpeed: 50,
+            });
+          </script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    </div>
+
+    <script class="chart">
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+            labels: [
+    'digital marketer',
+    'bussiness analyst',
+    'web developer'
+  ],
+            datasets: [{
+              label: 'no of days worked',
+              data: [60,40,30],
+              borderWidth: 0
+            }]
+          },
+          options: {
+            
+          }
+        });
+      </script>
+    <footer class="end">
+        copywitres &copy
+
+    </footer>
+</body>
+</html>
